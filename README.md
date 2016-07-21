@@ -9,6 +9,13 @@
 go get github.com/hiroakis/s
 ```
 
+or か
+
+```
+wget https://raw.githubusercontent.com/hiroakis/s/master/s_darwin_amd64
+wget https://raw.githubusercontent.com/hiroakis/s/master/s_linux_amd64
+```
+
 ## Run 実行
 
 Just run `s`
