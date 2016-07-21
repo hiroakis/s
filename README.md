@@ -9,6 +9,22 @@
 go get github.com/hiroakis/s
 ```
 
+## Run 実行
+
+Just run `s`
+
+```
+s
+```
+
+## Option オプション
+
+```
+-h Listen IP address. Default: 127.0.0.1 リスンIP。デフォは"127.0.0.1"
+-p Listen Port. Default: 8000 リスンポート。デフォは"8000"
+-d The DocumentRoot. Default "." ドキュメントルートの指定。デフォは"."
+```
+
 ## Motivation モチベーション
 
 ```
@@ -29,14 +45,6 @@ ruby -run -e httpd .
 
 are pain for me and I forget sometime.
 とかやるのすら面倒だったってのが。
-
-## Option オプション
-
-```
--h Listen IP address. Default: 127.0.0.1 リスンIP。デフォは"127.0.0.1"
--p Listen Port. Default: 8000 リスンポート。デフォは"8000"
--d The DocumentRoot. Default "." ドキュメントルートの指定。デフォは"."
-```
 
 ## License
 
