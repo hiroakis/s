@@ -40,7 +40,7 @@ func main() {
 		port    int
 		docRoot string
 	)
-	flag.StringVar(&host, "h", "127.0.0.1", "listen ip or hostname")
+	flag.StringVar(&host, "h", "0.0.0.0", "listen ip or hostname")
 	flag.IntVar(&port, "p", 8000, "listen port")
 	flag.StringVar(&docRoot, "d", ".", "document root")
 	flag.Parse()

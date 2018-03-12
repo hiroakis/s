@@ -12,8 +12,9 @@ go get github.com/hiroakis/s
 or か
 
 ```
-wget https://raw.githubusercontent.com/hiroakis/s/master/s_darwin_amd64
-wget https://raw.githubusercontent.com/hiroakis/s/master/s_linux_amd64
+wget https://raw.githubusercontent.com/hiroakis/s/master/s_darwin_396
+wget https://raw.githubusercontent.com/hiroakis/s/master/s_linux_386
+wget https://raw.githubusercontent.com/hiroakis/s/master/s_windows_386.exe
 ```
 
 ## Run 実行
@@ -27,7 +28,7 @@ s
 ## Option オプション
 
 ```
--h Listen IP address. Default: 127.0.0.1 リスンIP。デフォは"127.0.0.1"
+-h Listen IP address. Default: 0.0.0.0 リスンIP。デフォは"0.0.0.0"
 -p Listen Port. Default: 8000 リスンポート。デフォは"8000"
 -d The DocumentRoot. Default "." ドキュメントルートの指定。デフォは"."
 ```
